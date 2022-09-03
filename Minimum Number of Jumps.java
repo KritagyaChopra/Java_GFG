@@ -48,6 +48,7 @@ class Solution{
                 stepsCount = currMax-i;
             }
         }
+	    
         if(currMax >=arr.length-1)
             return jump+1;
         else{
